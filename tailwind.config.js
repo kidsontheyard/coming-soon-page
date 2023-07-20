@@ -11,6 +11,7 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'my_bg_image': "url('https://assets.kidsontheyard.com/wp-content/uploads/2022/08/12141131/koty-school-soltions-at-school-by-kids-on-the-yard.jpg.webp')"
       },
     },
   },
