@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 
-const nextConfig = {}
+const nextConfig = {};
 
-module.exports = nextConfig
+module.exports = nextConfig;
 
-const withImages = require('next-images');
-module.exports = withImages(); 
+const withImages = require("next-images");
+module.exports = withImages();
