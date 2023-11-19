@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier -w .",
-    "format:check": "prettier -c ."
+    "format:check": "prettier -c .",
+    "clear:all": "rm -rf build && rm -rf dist && rm -rf .cache && rm -rf node_modules &&  rm -rf .next",
+    "clear": "yarn clear:all"
   },
   "dependencies": {
     "@types/node": "^20.9.0",
@@ -28,6 +30,6 @@
   },
   "devDependencies": {
     "prettier": "^3.1.0",
-    "prettier-plugin-tailwindcss": "^0.4.1"
+    "prettier-plugin-tailwindcss": "^0.5.7"
   }
 }
